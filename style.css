@@ -22,6 +22,9 @@
 .name {
     grid-area: name;
     font-size: 100px;
+    max-width: 450px;
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .title {
@@ -33,10 +36,7 @@
     
 }
 
-.profile {
-    grid-area: profile;
-    font-size: 30px;
-}
+
 
 .leftcontact {
     grid-area: leftcontact;
@@ -84,4 +84,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.profile {
+    grid-area: profile;
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.areas_of_expertise {
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.work {
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+ol {
+    font-size: 20px;
 }
